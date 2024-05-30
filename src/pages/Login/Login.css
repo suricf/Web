@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+    background: url('https://www.aecbytes.com/illustrations/newsletter/2022/issue_116-images/fig2.jpg') no-repeat center center/cover;
+  }
+  
+  .login-status {
+    flex: 1;
+    max-width: 30%;
+    margin-left: 4%;
+  }
+  
+  .login-status h3 {
+    font-size: 24px;
+    background-color: rgba(225, 229, 233, 0.7);
+    padding: 9px 17px;
+    border-radius: 17px;
+  }
+  
+  .login-status ul {
+    /* list-style: none; */
+    font-size: 24px;
+   
+    padding: 9px 17px;
+    border-radius: 17px;
+  }
+  
+  .login-status-item {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .login-new-model {
+    padding: 7px 17px;
+
+    /* color: green; */
+     background-color: rgba(225, 229, 233, 0.7);
+  }
+  
+  .login-maintenance {
+    /* color: orange; */
+    background-color: rgba(229, 217, 145, 0.7);
+    padding: 7px 17px;
+
+  }
+  
+  .login-fixing {
+    /* color: red; */
+    padding: 7px 17px;
+
+    background-color: rgba(225, 130, 113, 0.7);
+  }
+  
+  .login-box {
+    flex: 1;
+    max-width: 40%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 4%;
+  }
+  
+  .login-box h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .login-input-group {
+    margin-bottom: 15px;
+  }
+  
+  .login-input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-input-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 0;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background: #0056b3;
+  }
+  
